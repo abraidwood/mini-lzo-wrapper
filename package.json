@@ -3,6 +3,10 @@
 	"version": "0.1.0",
 	"description": "A very low-level wrapper around the minilzo fast compression library",
 	"author": "Liam Doherty",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/abraidwood/mini-lzo-wrapper.git"
+	},
 	"main": "lzo",
 	"scripts": {
        "install": "node-waf configure build"
