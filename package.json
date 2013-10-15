@@ -9,7 +9,7 @@
 	},
 	"main": "lzo",
 	"scripts": {
-       "install": "node-waf configure build"
+       "install": "node-gyp configure build"
 	},
 	"engines": {
 		"node": ">=0.4.0"
